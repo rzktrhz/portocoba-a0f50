@@ -1,4 +1,14 @@
 ---
 label: bubur
 hide_body: true
-fields: []
+fields:
+- name: kodak
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Kodak
+  description: Siapa saja bisa masuk
